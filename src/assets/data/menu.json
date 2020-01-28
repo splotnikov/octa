@@ -1,0 +1,38 @@
+{
+  "menu": [
+    {
+      "state": "dashboard",
+      "name": "Dashboard",
+      "type": "link",
+      "icon": "dashboard",
+      "badge": {
+        "color": "red-500",
+        "value": "5"
+      }
+    },
+    {
+      "state": "profile",
+      "name": "Profile",
+      "type": "sub",
+      "icon": "person",
+      "children": [
+        {
+          "state": "overview",
+          "name": "Overview",
+          "type": "link"
+        },
+        {
+          "state": "settings",
+          "name": "Settings",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "state": "map",
+      "name": "Map",
+      "type": "link",
+      "icon": "map"
+    }
+  ]
+}
